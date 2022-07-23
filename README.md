@@ -22,7 +22,7 @@ The full code of the experiment comprises 4 code files:
 - result processing, plotting: result_processor.ipynb
 
 The main file can be run without running the tuning first. For this to work, there are several secondary files required, which all also part of the repo. Namely, the tuned parameters for each model, as received from the parameter tuning file. These are stored on the folder 'metaparameters'.
-Also, the file containing the tuned thresholds for each dataset is needed ('NEW_tuned_thresholds').
+Also, the file containing the tuned thresholds for each dataset is needed ('tuned_thresholds').
 
 **It is recommended to copy all files from the repo, plus the datasets needed, into a Google Drive folder from which the code can be run via Colab. Running locally is of course possible, but will require more adjustments to file paths etc., as well slight changes to the install routine of the libraries required.**
 
