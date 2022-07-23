@@ -1,0 +1,19 @@
+{"random": {"AL": {"strategy_name": "QueryInstanceRandom"}, "CLF": {"tol": 0.001, "solver": "liblinear", "penalty": "l2", "max_iter": 50, "C": 0.1}}}
+{"unc": {"AL": {"strategy_name": "QueryInstanceUncertainty", "measure": "entropy"}, "CLF": {}}}
+{"qbc": {"AL": {"strategy_name": "QueryInstanceQBC", "method": "query_by_bagging", "disagreement": "KL_divergence"}, "CLF": {}}}
+{"dw": {"AL": {"strategy_name": "QueryInstanceDensityWeighted", "uncertainty_meansure": "margin", "distance": "euclidean", "beta": 0.5}, "CLF": {}}}
+{"density": {"AL": {"strategy_name": "QueryInstanceGraphDensity", "metric": "canberra"}, "CLF": {}}}
+{"cors": {"AL": {"strategy_name": "QueryInstanceCoresetGreedy", "distance": "cosine"}, "CLF": {}}}
+{"lal": {"AL": {"strategy_name": "QueryInstanceLAL", "cls_est": 64, "reg_est": 128, "reg_depth": 10, "reg_feat": 5}, "CLF": {}}}
+{"spal": {"AL": {"strategy_name": "QueryInstanceSPAL", "kernel": "rbf", "mu": 0.01, "gamma": 1, "rho": 10, "lambda_init": 0.1, "lambda_pace": 0.001}, "CLF": {}}}
+{"bmdr": {"AL": {"strategy_name": "QueryInstanceBMDR", "kernel": "rbf", "beta": 100, "gamma": 0.01, "rho": 0.1}, "CLF": {}}}
+{"random": {"AL": {"strategy_name": "QueryInstanceRandom"}, "CLF": {"tol": 0.001, "solver": "liblinear", "penalty": "l2", "max_iter": 50, "C": 0.1}}}
+{"unc": {"AL": {"strategy_name": "QueryInstanceUncertainty", "measure": "entropy"}, "CLF": {}}}
+{"qbc": {"AL": {"strategy_name": "QueryInstanceQBC", "method": "query_by_bagging", "disagreement": "KL_divergence"}, "CLF": {}}}
+{"dw": {"AL": {"strategy_name": "QueryInstanceDensityWeighted", "uncertainty_meansure": "margin", "distance": "euclidean", "beta": 0.5}, "CLF": {}}}
+{"density": {"AL": {"strategy_name": "QueryInstanceGraphDensity", "metric": "canberra"}, "CLF": {}}}
+{"cors": {"AL": {"strategy_name": "QueryInstanceCoresetGreedy", "distance": "cosine"}, "CLF": {}}}
+{"lal": {"AL": {"strategy_name": "QueryInstanceLAL", "cls_est": 16, "reg_est": 32, "reg_depth": 10, "reg_feat": 7}, "CLF": {}}}
+{"spal": {"AL": {"strategy_name": "QueryInstanceSPAL", "kernel": "rbf", "mu": 0.01, "gamma": 1, "rho": 10, "lambda_init": 0.1, "lambda_pace": 0.1}, "CLF": {}}}
+{"bmdr": {"AL": {"strategy_name": "QueryInstanceBMDR", "kernel": "rbf", "beta": 100, "gamma": 0.01, "rho": 0.1}, "CLF": {}}}
+{"quire": {"AL": {"strategy_name": "QueryInstanceQUIRE", "kernel": "rbf", "lambda": 0.1, "gamma": 10}, "CLF": {}}}

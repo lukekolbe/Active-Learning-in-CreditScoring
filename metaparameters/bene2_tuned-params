@@ -1,0 +1,9 @@
+{"random": {"AL": {"strategy_name": "QueryInstanceRandom"}, "CLF": {"tol": 1e-05, "solver": "liblinear", "penalty": "l1", "max_iter": 100, "C": 0.1}}}
+{"unc": {"AL": {"strategy_name": "QueryInstanceUncertainty", "measure": "entropy"}, "CLF": {}}}
+{"qbc": {"AL": {"strategy_name": "QueryInstanceQBC", "method": "query_by_bagging", "disagreement": "KL_divergence"}, "CLF": {}}}
+{"dw": {"AL": {"strategy_name": "QueryInstanceDensityWeighted", "uncertainty_meansure": "least_confident", "distance": "euclidean", "beta": 1}, "CLF": {}}}
+{"density": {"AL": {"strategy_name": "QueryInstanceGraphDensity", "metric": "jaccard"}, "CLF": {}}}
+{"cors": {"AL": {"strategy_name": "QueryInstanceCoresetGreedy", "distance": "cosine"}, "CLF": {}}}
+{"lal": {"AL": {"strategy_name": "QueryInstanceLAL", "cls_est": 32, "reg_est": 64, "reg_depth": 5, "reg_feat": 6}, "CLF": {}}}
+{"spal": {"AL": {"strategy_name": "QueryInstanceSPAL", "kernel": "rbf", "mu": 0.1, "gamma": 0.1, "rho": 0.1, "lambda_init": 0.1, "lambda_pace": 0.001}, "CLF": {}}}
+{"bmdr": {"AL": {"strategy_name": "QueryInstanceBMDR", "kernel": "rbf", "beta": 100, "gamma": 0.01, "rho": 0.1}, "CLF": {}}}
