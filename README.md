@@ -12,7 +12,7 @@ It further examines whether any improvement in predictive power is worth the ris
 
 
 ## HOW TO USE THE CODE
-All files required are part of the repo, except the datasets, which can be found here:
+All files required are part of the repo, the datasets can also be found here:
 https://bit.ly/3cv08Xb (Google Drive Folder)
 
 The full code of the experiment comprises 4 code files:
