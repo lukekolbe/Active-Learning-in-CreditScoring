@@ -12,7 +12,7 @@ It further examines whether any improvement in predictive power is worth the ris
 
 
 ## HOW TO USE THE CODE
-All files required are part of the repo, the data for the thesis was provided by the Chair of Information Systems of Humboldt-Universität zu Berlin. 
+All files required are part of the repo, the data for the thesis was provided by the Chair of Information Systems of Humboldt-Universität zu Berlin. Datasets include the publicly available datasets GiveMeSomeCredit (GMSC), Home Equity dataset (HMEQ), PAKDD, Australian Credit Approval (Statlog), German Credit Data (Statlog), Lendingclub. Datasets with limited availability are Thomas, UK, Bene1, Bene2.
 
 The full code of the experiment comprises 4 code files:
 - main file: AL_CreditScoring.ipynb
